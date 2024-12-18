@@ -22,7 +22,7 @@ _Для запуска сервиса необходимо клонироват�
 
 ```bash
 git clone git@github.com:leostuchchi/keras_emnist.git
-cd ml-advanced/CV/practice
+cd keras_emnist/CV/practice
 docker build -t cv .
 docker run -d -p 8000:8000 --name myapp-container cv
 ```
